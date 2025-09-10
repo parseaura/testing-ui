@@ -1,0 +1,144 @@
+.card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  padding: 32px;
+  position: relative;
+  text-align: left;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.popular {
+  box-shadow: var(--shadow);
+  transform: scale(1.05);
+}
+
+.popular:hover {
+  transform: scale(1.05) translateY(-4px);
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.planName {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--primary-color);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.bestPlan {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: var(--black);
+  padding: 10px 20px;
+  border: 1px solid var(--purple);
+  border-radius: 15px;
+  margin-left: auto;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.currency,
+.price {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.period {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.gray {
+  background-color: var(--light-gray);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.checkIcon {
+  color: var(--black);
+  font-weight: bold;
+  flex-shrink: 0;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Inter";
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+  margin-top: auto;
+}
+
+.primary {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.primary:hover {
+  background: #00a0b4;
+}
+
+.outline {
+  background: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--gray);
+}
+
+.outline:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+}

@@ -1,0 +1,9 @@
+.navigation {
+  display: flex;
+}
+
+.navigation > ul {
+  display: flex;
+  gap: 80px;
+  font-size: 22px;
+}

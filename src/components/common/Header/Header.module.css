@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 120px 0 120px;
+}
+
+.headerLogo {
+  margin-right: auto;
+}
+
+.userWidget {
+  margin-left: 70px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-weight: var(--font-weight-medium);
+  font-size: 18px;
+}
+
+.userWidget::after {
+  content: "";
+  height: 5px;
+  width: 5px;
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,23 @@
+.section {
+  padding: 80px 0;
+}
+
+.header {
+  text-align: center;
+  margin: 120px auto 85px auto;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  max-width: 1170px;
+  margin: 0 auto;
+}

@@ -1,0 +1,56 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 85px 140px;
+
+  background-color: var(--light-blue);
+  box-shadow: 0 230px 0 0 var(--light-blue);
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.cardsContainer {
+  position: relative;
+}
+
+.button {
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.button:first-child {
+  position: absolute;
+  top: 45%;
+  left: -15px;
+}
+.button:last-child {
+  position: absolute;
+  top: 45%;
+  right: -15px;
+}
+
+.arrow {
+  filter: brightness(0) invert(1);
+}
+
+.arrowLeft {
+  transform: rotate(90deg);
+}
+
+.arrowRight {
+  transform: rotate(-90deg);
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}

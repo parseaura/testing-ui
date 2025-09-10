@@ -1,0 +1,108 @@
+.footer {
+  background-color: var(--dark-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+  gap: 100px;
+  color: var(--light-purple);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+.moto {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--white);
+  text-align: start;
+  max-width: 156px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.moto::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 60px;
+  width: 1px;
+  left: -50px;
+  background-color: var(--light-purple);
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+}
+
+.input {
+  border-radius: 80px;
+  background-color: var(--dark-gray);
+  border: 1px solid var(--light-purple);
+  padding: 15px 30px;
+  min-width: 400px;
+}
+
+.input::placeholder {
+  color: var(--light-purple);
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+
+.button {
+  border: none;
+  border-radius: 80px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 14px 34px;
+
+  font-family: var(--font-family);
+  font-size: 22px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.link {
+  font-size: 22px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.link:not(:last-of-type):after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 1px;
+  top: 10px;
+  right: -20px;
+  background-color: var(--light-purple);
+}
