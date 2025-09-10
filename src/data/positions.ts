@@ -1,4 +1,5 @@
 import type { Position } from "../types/positions";
+import background from "../assets/PositionsBackground.jpg";
 
 export const positions: Position[] = [
   {
@@ -7,7 +8,7 @@ export const positions: Position[] = [
     description:
       "Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively.",
     buttonText: "Apply a Teacher",
-    image: "/src/assets/PositionsBackground.jpg",
+    image: background,
   },
   {
     id: "counselor",
@@ -15,6 +16,6 @@ export const positions: Position[] = [
     description:
       "Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively.",
     buttonText: "Apply a Counselor",
-    image: "/src/assets/PositionsBackground.jpg",
+    image: background,
   },
 ];
